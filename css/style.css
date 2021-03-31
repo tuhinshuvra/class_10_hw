@@ -1,0 +1,260 @@
+/*notary image to heml*/
+/*header start*/
+body{
+	margin:0;
+	padding:0;
+}
+header{
+	border: 1px solid red;
+	padding: 20px 0;
+}
+.container {
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.logo {
+	width: 17%;
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu {
+	margin-top: 8px;
+	width: 75%;
+	/*border: 1px solid green;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	float: left;
+	list-style: none;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #131313;
+	text-decoration: none; 
+	display: block;
+	padding: 0px 15px;
+}
+
+.menu ul li a:hover{
+	color: #BD2241;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+}
+.b_content{
+	margin:100px 0;
+	width: 50%;
+	/*border: 1px solid yellow;*/
+}
+.b_content h1{
+	margin: 0 0 30px;
+	font-family: sans-serif;
+	font-size: 57px;
+	font-weight: 700;
+	color: white;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
+.b_p{
+	text-transform: capitalize;
+}
+.b_content p{
+	margin: 0 0 15px;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: white;
+}
+.b_content button{
+	margin:20px 0 0;
+	width: 250px;
+	height: 45px;
+	background-color: #BC223E;
+	border:none;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color:white;
+	text-transform: uppercase;
+	transition: .3s;
+}
+.b_content button:hover{
+	background-color: white;
+	color: #BC223E;
+}
+/*banner end*/
+/*works start*/
+.works{
+	padding: 100px 0;
+}
+.top{
+	margin: 0 auto;
+	width: 70%;
+	/*border: 1px solid;*/
+	text-align: center;
+}
+.w_h1{
+	margin: 0 0 20px;
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color:#1E1E1E;
+	text-transform: uppercase;
+}
+.w_p{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	color:#A7A7A7;
+	line-height: 25px;
+}
+.bottom{}
+.single{
+	margin: 0px 3%;
+	width: 25%;
+	/*border: 1px solid red;*/
+	text-align: center;
+	padding: 30px 1.15% 0;
+	float: left;
+}
+.s_img{
+	margin: 0 auto;
+	width: 50%;	
+	border: 1px solid;
+}
+.s_img img{
+	width: 100%;
+}
+.single p{
+	margin:25px 0;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	color: #1E1E1E;
+}
+/*works end*/
+
+/*learn start*/
+.learn{
+	padding: 150px 0;
+}
+.learn_left{
+	width: 47%;
+	float: left;
+}
+.learn_left h1{
+	font-family: sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+}
+.learn_left button{
+	margin:20px 0 0;
+	width: 250px;
+	height: 45px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color:white;
+	text-transform: uppercase;
+	background: #B7213A;
+	border: none;
+	border-radius: 3px;
+}
+.learn_left button:hover{
+	background-color: green;
+	color: gray;
+ }
+
+.learn_left p{}
+.learn_right{
+	width: 47%;
+	float: right;
+}
+.learn_right video{}
+
+/*learn end*/
+
+/*features start*/
+.f_single{
+	margin: 7% 32px 0%;
+    width: 25%;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 30px 1.15% 0;
+    float: left;
+}
+.fs_img{
+	margin: 0 auto;
+	width: 100%;	
+	/*border: 1px solid;*/
+}
+.features button{
+	margin: 16% 40% 100px;
+	width: 250px;
+	height: 45px;
+	background-color: #BC223E;
+	border:none;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color:white;
+	text-transform: uppercase;
+	
+}
+.features button:hover{
+	background-color: white;
+	color: #BC223E;
+}
+/*features end*/
+
+/*footer section start*/
+.f_top{
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	/*border: 1px solid red;*/
+}
+.f_top{}
+.f_left{}
+.f_middle{}
+.f_right{}
+.f_bottom{
+	width: 100%;
+	height: 50px;
+	background-color: #535D69;
+	/*border: 1px solid red;*/
+}
+
+.copyright p{
+	display: inline;
+	font-family: sans-serif;
+	font-size: 17px;
+	text-align: center;
+	font-weight: 400;
+	color: white;
+	}
+/*footer section end*/
